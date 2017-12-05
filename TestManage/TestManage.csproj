@@ -168,6 +168,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\TestManage\Controllers\HomeController.cs" />
+    <Compile Include="Areas\TestManage\Controllers\ProductController.cs" />
+    <Compile Include="Areas\TestManage\TestManageAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -184,6 +187,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="fonts\iconfont.css" />
+    <Content Include="fonts\iconfont.js" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="images\company-img-1.jpg" />
@@ -209,18 +215,36 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="Areas\TestManage\Views\web.config" />
+    <Content Include="Areas\TestManage\Views\Home\Index.cshtml" />
+    <Content Include="fonts\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="fonts\font-awesome\font\fontawesome-webfont.eot%40" />
+    <Content Include="fonts\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="fonts\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="Areas\TestManage\Views\Home\Index2.cshtml" />
+    <Content Include="fonts\iconfont.eot" />
+    <Content Include="fonts\iconfont.svg" />
+    <Content Include="fonts\iconfont.ttf" />
+    <Content Include="fonts\iconfont.woff" />
+    <Content Include="Views\Shared\Shared_manage\_LayoutTestManage.cshtml" />
+    <Content Include="Areas\TestManage\Views\Product\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\excanvas.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.flexslider.js" />
     <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.nicescroll.min.js" />
     <Content Include="Scripts\jquery.simple-text-rotator.js" />
+    <Content Include="Scripts\jquery.ui.custom.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\matrix.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\nav.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\smoothscroll.js" />
@@ -228,8 +252,13 @@
     <Content Include="Scripts\wow.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Styles\animate.min.css" />
+    <Content Include="Styles\bootstrap-responsive.min.css" />
     <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\font-awesome.css" />
     <Content Include="Styles\font-awesome.min.css" />
+    <Content Include="Styles\matrix-media.css" />
+    <Content Include="Styles\matrix-style.css" />
+    <Content Include="Styles\nav.css" />
     <Content Include="Styles\templatemo-style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -269,6 +298,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Shared\" />
+    <Folder Include="Areas\TestManage\Models\" />
+    <Folder Include="Areas\TestManage\Views\Shared\" />
+    <Folder Include="Views\Shared\Shared_web\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

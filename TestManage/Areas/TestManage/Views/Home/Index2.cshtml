@@ -1,0 +1,84 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>扁平化可伸展导航[原创]</title>
+    <link href="~/Styles/nav.css" rel="stylesheet" />
+    <link href="~/fonts/iconfont.css" rel="stylesheet" />
+    <link href="~/Styles/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/nav.js"></script>
+    <style>
+        .page_left {
+            float: left;
+            width: 15%;
+        }
+
+        .page_right {
+            float: left;
+            width: 85%;
+        }
+        .page_index{
+            height:100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-top">
+
+    </div>
+
+    <div class="page_index">
+        <div class="nav page_left">
+            <div class="nav-top">
+                <div id="mini" style="border-bottom:1px solid rgba(255,255,255,.1);height:31px;"><span class="glyphicon glyphicon-list pull-right" style="color:#abb1b7;font-size:25px;right: 17px;"></span>44</div>
+            </div>
+            <ul>
+                <li class="nav-item">
+                    <a href="javascript:;"><i class="my-icon nav-icon icon_1"></i><span>网站配置</span><i class="my-icon nav-more"></i></a>
+                    <ul>
+                        <li><a href="javascript:;"><span>网站设置</span></a></li>
+                        <li><a href="javascript:;"><span>友情链接</span></a></li>
+                        <li><a href="javascript:;"><span>分类管理</span></a></li>
+                        <li><a href="javascript:;"><span>系统日志</span></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:;"><i class="my-icon nav-icon icon_2"></i><span>文章管理</span><i class="my-icon nav-more"></i></a>
+                    <ul>
+                        <li><a href="javascript:;"><span>站内新闻</span></a></li>
+                        <li><a href="javascript:;"><span>站内公告</span></a></li>
+                        <li><a href="javascript:;"><span>登录日志</span></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:;"><i class="my-icon nav-icon icon_3"></i><span>订单管理</span><i class="my-icon nav-more"></i></a>
+                    <ul>
+                        <li><a href="javascript:;"><span>订单列表</span></a></li>
+                        <li><a href="javascript:;"><span>打个酱油</span></a></li>
+                        <li><a href="javascript:;"><span>也打酱油</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="page_right">
+            <div class="content-iframe" style="background-color: #ffffff; overflow: hidden;">
+                <div class="mainContent" id="content-main" style="margin: 10px; margin-bottom: 0px; padding: 0;">
+                    <iframe class="Kdzr_iframe" id="Kdzr_iframe" name="Kdzr_iframe" width="100%" height="100%"
+                    src="~/TestManage/Product/Index" frameborder="0" data-id="99"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+
